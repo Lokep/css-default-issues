@@ -55,3 +55,33 @@ html {
     scrollbar-track-color:#eeeeee;/*背景颜色*/
 }
 ```
+#input-placeholder-issues
+##有关placeholder设置属性
+
+```css
+input::-webkit-input-placeholder{
+    color:red;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+    color:red;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+    color:red;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:red;
+}
+
+```
+
+##其他
+```css
+input,textarea{
+   -webkit-appearance:none;
+   outline:none;/*聚焦时候 的 边框*/
+   border:1px solid black;
+}
+textarea{
+   resize:none;/*无法缩放*/
+}
+```
