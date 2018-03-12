@@ -55,8 +55,8 @@ html {
     scrollbar-track-color:#eeeeee;/*背景颜色*/
 }
 ```
-#input-placeholder-issues
-##有关placeholder设置属性
+# input-placeholder-issues
+## 有关placeholder设置属性
 
 ```css
 input::-webkit-input-placeholder{
@@ -74,7 +74,7 @@ input:-ms-input-placeholder{  /* Internet Explorer 10-11 */
 
 ```
 
-##其他
+## 其他
 ```css
 input,textarea{
    -webkit-appearance:none;
